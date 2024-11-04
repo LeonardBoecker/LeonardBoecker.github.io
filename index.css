@@ -3,10 +3,114 @@ body{
 }
 header {
   background-color: #000;
-  padding: 20px
+  padding: 20px;
+  display: flex;
 }
 
 body h1{
   color: #fff;
   text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Itim&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Space+Mono&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Itim", cursive;
+    /* font-weight: 400;
+    font-style: normal; */
+}
+
+/* .color1 { #ffffff };
+.color2 { #5e9188 };
+.color3 { #3e5954 };
+.color4 { #253342 };
+.color5 { #232226 };
+#5ff13f
+ */
+
+ /* .color1 { #2c323a };
+.color2 { #21262b };
+.color3 { #16191d };
+.color4 { #0b0d0e };
+.color5 { #000000 };  */
+
+/* Colors, basic elements bellow */
+body{
+    background: #396da3;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+  
+}
+
+/* section home bellow */
+
+.home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 55px 9% 0;
+    color: #fff;
+}
+
+.home-info h1{
+    font-size: 45px;
+}
+.home-info h2{
+    font-size: 26px;
+    margin-top: -5px ;
+}
+.home-info p {
+    font-size: 16px;
+    margin: 10px 0 25px;
+}
+
+.home-info .btn-yt {
+    display: inline-block;
+    padding: 12px;
+    border: 3px dotted #c8fcf3;
+    font-size: 22px;
+    rotate: -5deg;
+    border-radius: 50%;
+    box-shadow: 0 3px #b4f0e5;
+    background-color: #44a58d;
+    transition: .3s;
+}
+.home-info .btn-yt:hover {
+    padding: 12px;
+    font-weight: 500;
+    border: 3px dotted #1d5f4e;
+    box-shadow: 0 1px #b4f8ec;
+    background-color: #5e9188;
+}
+
+.home-info .btn-sm{
+    display: flex;
+    align-items: center;
+}
+
+.home-info .btn-sm .sm{
+    margin-left: 10px;
+}
+
+.home-info .btn-sm .sm a {
+    display: inline-block;
+    padding: 8px;
+    border: 2px solid #cffff6;
+    color: #fff;
+    margin-left: 10px;
+    transition: .4s;
+}
+.home-info .btn-sm .sm a:hover {
+    display: inline-flex;
+    padding: 8px;
+    color: #fff;
+    box-shadow: 2px 2px #5e9188;
+    opacity: 0.9;
+    transition: .5s;
 }
